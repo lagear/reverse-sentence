@@ -1,11 +1,24 @@
 {
   "name": "reverse-sentece",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Reverses a sentence.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "./node_modules/prettier/bin-prettier.js . --write"
   },
   "author": "Marcelo Romero",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lagear/reverse-sentence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lagear/reverse-sentence/issues"
+  },
+  "homepage": "https://github.com/lagear/reverse-sentence#readme",
+  "devDependencies": {
+    "jest": "^29.2.2",
+    "prettier": "2.7.1"
+  }
 }
